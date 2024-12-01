@@ -35,7 +35,7 @@ const createBotInstance = () => {
 
   bot.once('spawn', () => {
     console.log(`[Bot] ${botName} connected to ${ip}:${port}`);
-    bot.chat('Hello! I am back and ready to assist!');
+    bot.chat('checking server!');
   });
 
   bot.on('end', () => {
